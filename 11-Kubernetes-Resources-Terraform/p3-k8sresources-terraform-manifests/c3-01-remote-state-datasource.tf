@@ -2,7 +2,7 @@
 data "terraform_remote_state" "gke" {
   backend = "gcs"
   config = {
-    bucket = "terraform-on-gcp-gke"
+    bucket = "terraform-on-gcp-gke-1501"
     prefix = "dev/gke-cluster-public"
   }  
 }

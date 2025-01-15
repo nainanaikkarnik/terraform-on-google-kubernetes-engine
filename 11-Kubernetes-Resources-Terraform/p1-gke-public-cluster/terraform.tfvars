@@ -1,5 +1,5 @@
-gcp_project     = "gcplearn9"
+gcp_project     = "student-00625"
 gcp_region1     = "us-central1"
-machine_type    = "e2-medium"
+machine_type    = "n1-standard-1"
 environment     = "dev"
 business_divsion = "hr"
